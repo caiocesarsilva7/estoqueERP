@@ -1,0 +1,23 @@
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .card {
+    border: 1px solid #06182b;
+  }
+  
+  .card-header {
+    background-color: #06182b;
+    color: white;
+    font-weight: bold;
+  }
+  
+  h2, h3 {
+    margin-bottom: 20px;
+  }
+  
+  .list-group-item {
+    font-size: 1.1em;
+  }

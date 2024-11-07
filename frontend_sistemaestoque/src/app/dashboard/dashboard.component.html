@@ -1,0 +1,14 @@
+<div class="container my-4">
+    <h2 class="text-center text-primary">Painel de Inventário</h2>
+
+    <app-item-form [item]="editItem" 
+                   (addItem)="handleAddItem($event)" 
+                   (updateItem)="handleUpdateItem($event)" 
+                   (cancelEdit)="cancelEdit()">
+    </app-item-form>
+
+    <app-item-list [items]="items" 
+                   (editItem)="handleEditItem($event)" 
+                   (deleteItem)="handleDeleteItem($event)">
+    </app-item-list>
+</div>
