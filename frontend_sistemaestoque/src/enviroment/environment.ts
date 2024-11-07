@@ -1,4 +1,4 @@
 export const environment = {
-    production: false,
-    apiUrl: 'http://localhost:8080/api' // URL base do back-end
+    production: true,
+    apiUrl: 'mysql://root:avvlHKTPltbntxKtFYDAgaeDGrTiQVsX@mysql.railway.internal:3306/railway' // URL base do back-end
   };
